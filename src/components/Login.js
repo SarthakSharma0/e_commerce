@@ -30,7 +30,7 @@ export default function Login(props) {
         e.preventDefault();
 
         const {email,password} = user;
-        const res = await fetch("http://localhost:5000/api/auth/loginUser",{
+        const res = await fetch("https://e-commerce-ashen-five.vercel.app/api/auth/loginUser",{
             method:"POST",
             headers: {
                 "Content-Type" : "application/json"

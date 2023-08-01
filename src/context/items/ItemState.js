@@ -24,7 +24,7 @@ export let ItemState = (props) =>{
     const [email,setEmail] = useState("admin@gmail.com");
     const [linkUser,setlinkUser] = useState("/login");
 
-    const host = "http://localhost:5000";
+    const host = "https://e-commerce-ashen-five.vercel.app";
     const itemsInitial=[]
 
     const [items,setItems] = useState(itemsInitial)

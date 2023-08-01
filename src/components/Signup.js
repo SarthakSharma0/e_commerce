@@ -26,7 +26,7 @@ export default function Signup(props) {
 
         const {name,email,password} = user;
         
-        const res = await fetch("http://localhost:5000/api/auth/createUser",{
+        const res = await fetch("https://e-commerce-ashen-five.vercel.app/api/auth/createUser",{
             method:"POST",
             headers: {
                 "Content-Type" : "application/json"
