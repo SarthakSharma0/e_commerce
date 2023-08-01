@@ -25,7 +25,7 @@ export default function Contact(props) {
 
         const {email,name,message} = user;
         
-        const res = await fetch("http://localhost:5000/api/contact/createContact",{
+        const res = await fetch("https://e-commerce-ashen-five.vercel.app/api/contact/createContact",{
             method:"POST",
             headers: {
                 "Content-Type" : "application/json"
